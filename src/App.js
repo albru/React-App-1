@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import About from './components/About'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Post from './components/Post'
+import style from './main.scss'
 
 class App extends React.Component {
   constructor(props) {
