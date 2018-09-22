@@ -31,7 +31,7 @@ class Home extends React.Component {
     )
     return (
       <div className="container home" >
-        <h4 className="center">Q PEDAN</h4>
+        <h4 className="center">MY POSTS</h4>
         {postList}
       </div>
     )
