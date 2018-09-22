@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Contact from './components/Contact'
@@ -31,8 +30,6 @@ class App extends React.Component {
     )
   }
 }
-
-ReactDOM.render(<App />, document.getElementById('app'))
 
 export default App
 
